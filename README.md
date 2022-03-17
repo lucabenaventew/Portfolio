@@ -1,15 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Portfolio
 
-# Project Name
-
-> Description the project.
-
+> This is my portfolio where I will be uploading all my jobs.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo (if available)
 
@@ -26,31 +22,20 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
 
-### Install
 
 ### Usage
 
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **@lucabenaventew**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
+- Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
+- LinkedIn: [lucabenaventew](https://linkedin.com/in/lucabenaventew/)
 
 ## 🤝 Contributing
 
