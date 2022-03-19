@@ -15,9 +15,11 @@
 .nav_logo {
   text-decoration: none;
   color: white;
-  padding: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-left: 12px;
   font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .nav_logo1 {
@@ -33,27 +35,23 @@
   font-size: 30px;
 }
 
-.nav_links {
-  transition: 600ms;
-  font-weight: bold;
-}
-
-.nav_links:hover {
-  background-color: #a5a58d;
-}
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   height: 100vh;
-  background-color: black;
+  background-color: #1c1a19;
   color: #ff6b00;
-  padding: 110px 10px 0 20px;
+  /* padding: 110px 10px 0 20px; */
+  padding: 120px 24px 120px 24px;
   gap: 0.5rem;
   background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.contact_links {
+  color: #dbd8d7;
 }
 
 h1 {
@@ -76,5 +74,13 @@ p {
 ul,
 li {
   display: flex;
-  gap: 15px;
+  flex-direction: row;
+  align-items: flex-start;
+  /* gap: 15px; */
+  height: 40px;
+  padding: 8px;
+}
+
+.github_logo {
+  padding-top: 1.2rem;
 }
