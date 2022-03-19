@@ -200,10 +200,6 @@ li {
   color: white !important;
 }
 
-
-
-
-
 .see_project3 {
   text-decoration: none;
   background-color: #ff6b00;
@@ -219,7 +215,7 @@ li {
   padding: 10px;
 }
 
-.about_container1{
+.about_container1 {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -230,7 +226,7 @@ li {
   padding: 20px;
 }
 
-.about_container1 p{
+.about_container1 p {
   font-family: Inter;
   font-weight: 400;
 }
