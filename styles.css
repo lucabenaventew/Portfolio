@@ -84,3 +84,153 @@ li {
 .github_logo {
   padding-top: 1.2rem;
 }
+
+.jobs_container h1 {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  color: #091e42;
+  /* background-image: url("./images/secondbg.png"); */
+}
+
+.jobs_container {
+  color: #091e42;
+}
+
+.jobs_container h2 {
+  padding-top: 30px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.jobs_container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.skills li {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  /* padding: 10px, 12px, 10px, 12px; */
+}
+
+.see_project1 {
+  text-decoration: none;
+  background-color: #ff6b00;
+  width: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  position: relative;
+  top: 40px;
+  padding: 10px;
+}
+.see_project1:hover {
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+  background-color: #dbd8d7;
+  box-shadow: 5px 5px #3c3a39;
+}
+/* a */
+.card1 {
+  width: 327px;
+  height: 386px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  color: white;
+  background-image: url("./images/secondbg.png");
+}
+
+.skills1 li {
+  /* border: 1px solid black; */
+  margin: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.see_project2 {
+  text-decoration: none;
+  background-color: #ff6b00;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  position: relative;
+  top: 40px;
+  padding: 10px;
+  text-align: center;
+}
+.see_project2:hover {
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+  background-color: #dbd8d7;
+  box-shadow: 5px 5px #3c3a39;
+}
+
+.jobs_p {
+  color: white !important;
+}
+
+
+
+
+
+.see_project3 {
+  text-decoration: none;
+  background-color: #ff6b00;
+  width: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  position: relative;
+  top: 40px;
+  padding: 10px;
+}
+
+.about_container1{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.about_container1 p{
+  font-family: Inter;
+  font-weight: 400;
+}
