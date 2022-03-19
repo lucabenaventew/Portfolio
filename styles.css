@@ -84,7 +84,6 @@ li {
 }
 
 .jobs_container h1 {
-  font-family: "Crete Round";
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
@@ -106,7 +105,6 @@ li {
 
 .jobs_container h2 {
   padding-top: 30px;
-  font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -114,7 +112,6 @@ li {
 }
 
 .jobs_container p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -132,7 +129,6 @@ li {
   text-decoration: none;
   background-color: #ff6b00;
   width: 120px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -172,7 +168,6 @@ li {
   text-decoration: none;
   background-color: #ff6b00;
   width: 100%;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -198,7 +193,6 @@ li {
   text-decoration: none;
   background-color: #ff6b00;
   width: auto;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -220,7 +214,4 @@ li {
   padding: 20px;
 }
 
-.about_container1 p {
-  font-family: Inter;
-  font-weight: 400;
-}
+
