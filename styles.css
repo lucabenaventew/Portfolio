@@ -299,6 +299,10 @@ font-family: 'Roboto', sans-serif;
   gap: 2rem;
 }
 
+.text_deco h4 {
+  font-size: 32px;
+}
+
 .about_me_container .mps_text h4 {
   color: #f55800;
   font-family: "Crete Round", serif;
@@ -356,10 +360,6 @@ font-family: 'Roboto', sans-serif;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
-}
-
-.text_deco h4 {
-  font-size: 32px;
 }
 
 .decoration1 {
