@@ -253,6 +253,7 @@ font-family: 'Roboto', sans-serif;
   font-family: "Crete Round", serif;
   font-weight: 400;
 }
+
 .mps_text1 p {
   font-size: 17px;
   line-height: 24px;
@@ -381,6 +382,77 @@ font-family: 'Roboto', sans-serif;
   border-radius: 50%;
 }
 
+.form_section {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form_text {
+  font-size: 30px;
+  line-height: 45px;
+  color: #172b4d;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.form_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+}
+
+.form_input {
+  border: none;
+  border-bottom: 2px solid #d8d8d7;
+  margin-bottom: 24px;
+  width: calc(100% - 16px);
+  padding: 15px 0;
+  padding-left: 16px;
+}
+
+.form_email {
+  grid-column: span 3;
+  grid-row: 2;
+}
+
+.form_msg {
+  grid-row: 4;
+  grid-column: span 3;
+  background: #fbf8f7;
+  border: none;
+  padding: 20px;
+  height: 90px;
+  width: 80%;
+}
+
+.form_btn {
+  grid-row: 5;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.form_btn button {
+  align-self: flex-start;
+  color: #fff;
+  font-weight: bold;
+  background-color: #f55800;
+  border: none;
+  padding: 10px 15px;
+  transition: all 400ms;
+}
+
+.form_btn button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
 @media screen and (max-width: 600px) {
   .intro_container {
     background-image: url("./img/bg/Illustration.png");
@@ -499,6 +571,7 @@ font-family: 'Roboto', sans-serif;
     grid-row: auto;
     margin-top: 50px;
   }
+
   .lang_container,
   .framework_container,
   .skills_list_container {
@@ -515,5 +588,16 @@ font-family: 'Roboto', sans-serif;
 
   .ul_flex {
     text-align: center;
+  }
+
+  .form_section {
+    margin-top: 2rem;
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .form {
+    margin-bottom: 10rem;
   }
 }
