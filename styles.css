@@ -199,6 +199,16 @@ font-family: 'Roboto', sans-serif;
   transition: all 400ms;
 }
 
+.form_btn button {
+  align-self: flex-start;
+  color: #fff;
+  font-weight: bold;
+  background-color: #f55800;
+  border: none;
+  padding: 10px 15px;
+  transition: all 400ms;
+}
+
 .mps_text button:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
@@ -435,16 +445,6 @@ font-family: 'Roboto', sans-serif;
   grid-row: 5;
   margin-top: 1rem;
   margin-left: 1rem;
-}
-
-.form_btn button {
-  align-self: flex-start;
-  color: #fff;
-  font-weight: bold;
-  background-color: #f55800;
-  border: none;
-  padding: 10px 15px;
-  transition: all 400ms;
 }
 
 .form_btn button:hover {
