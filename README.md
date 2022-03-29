@@ -10,17 +10,12 @@
 
 ## Getting Started
 
-**Please git clone https://github.com/lucabenaventew/Portfolio.git into your workspace, 
-then type "cd Portfolio" on your command line**
-
-
+```
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-none
-
-
+$ git clone https://github.com/lucabenaventew/Portfolio.git
+$ cd Portfolio
+& git checkout -b "branch_name"
+```
 
 ## Authors
 
