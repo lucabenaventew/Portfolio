@@ -453,6 +453,14 @@ font-family: 'Roboto', sans-serif;
   color: #f55800;
 }
 
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .intro_container {
     background-image: url("./img/bg/Illustration.png");
@@ -599,5 +607,22 @@ font-family: 'Roboto', sans-serif;
 
   .form {
     margin-bottom: 10rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .form_full_name {
+    grid-column: span 3;
+  }
+
+  .form_list {
+    justify-items: center;
+  }
+
+  .form_btn{
+    grid-column: span 4;
   }
 }
