@@ -605,6 +605,10 @@ font-family: 'Roboto', sans-serif;
     gap: 0;
   }
 
+  .form_text h2 {
+    text-align: center;
+  }
+
   .form {
     margin-bottom: 10rem;
   }
@@ -622,7 +626,17 @@ font-family: 'Roboto', sans-serif;
     justify-items: center;
   }
 
-  .form_btn{
+  .form_msg {
+    width: 90%;
+    height: 114px;
+  }
+
+  .form_btn {
     grid-column: span 4;
+  }
+
+  .form_btn button {
+    padding: 20px 30px;
+    font-size: 1rem;
   }
 }
