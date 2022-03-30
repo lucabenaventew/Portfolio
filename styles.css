@@ -647,14 +647,11 @@ font-family: 'Roboto', sans-serif;
 
   .form_full_name {
     grid-column: span 3;
+    width: 100%;
   }
 
   .form_list {
     justify-items: center;
-  }
-
-  .form_full_name {
-    width: 100%;
   }
 
   .form_email {
