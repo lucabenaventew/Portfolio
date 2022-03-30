@@ -25,21 +25,14 @@ $ cd Portfolio
 - Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
 - LinkedIn: [lucabenaventew](https://linkedin.com/in/lucabenaventew/)
 
-## 🤝 Contributing
+## 🤝 Collaborators
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@chumaachike](https://github.com/chumaachike)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
