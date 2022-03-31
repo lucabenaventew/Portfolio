@@ -248,6 +248,10 @@ font-family: 'Roboto', sans-serif;
 }
 /*  */
 
+.sp_btn a {
+  color: #fff;
+}
+
 .works_card_hover_see button {
   color: #fff;
   font-weight: bold;
@@ -261,6 +265,10 @@ font-family: 'Roboto', sans-serif;
 .works_card_hover_see button:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.works_card_hover_see button:hover a {
   color: #f55800;
 }
 
