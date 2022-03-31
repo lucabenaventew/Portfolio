@@ -205,7 +205,7 @@ font-family: 'Roboto', sans-serif;
   font-weight: bold;
   background-color: #f55800;
   border: none;
-  padding: 10px ;
+  padding: 10px;
   transition: all 400ms;
 }
 
@@ -247,22 +247,41 @@ font-family: 'Roboto', sans-serif;
   height: 100%;
 }
 /*  */
+
+.works_card_hover_see button {
+  color: #fff;
+  font-weight: bold;
+  background-color: #f55800;
+  border: none;
+  padding: 10px;
+  transition: all 400ms;
+  width: 100%;
+}
+
+.works_card_hover_see button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
 .works_card_hover_see {
   display: none;
+  width: 100%;
 }
 
 .works_card:hover {
   background: url("./img/bg/Card-Background.png") no-repeat center;
+  align-items: flex-end;
 }
 
 .works_card:hover .mps_text1 {
   display: none;
-  background-color: red;
 }
 
 .works_card:hover .works_card_hover_see {
   display: block;
 }
+
 /*  */
 .mps_text1 {
   width: 85%;
@@ -462,8 +481,6 @@ font-family: 'Roboto', sans-serif;
   color: #f55800;
 }
 
-
-
 .icons_footer {
   display: flex;
   flex-direction: row;
@@ -473,7 +490,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .icons_footer li a {
-  color: #505F79;
+  color: #505f79;
   font-size: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -661,7 +678,6 @@ font-family: 'Roboto', sans-serif;
   .form_msg::placeholder {
     color: #3c3a39;
   }
-
 
   .form_btn button {
     font-size: 17px;
