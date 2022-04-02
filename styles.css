@@ -502,6 +502,10 @@ font-family: 'Roboto', sans-serif;
   color: #f55800;
 }
 
+.line2 {
+  margin-bottom: 1rem;
+}
+
 .icons_footer {
   display: flex;
   flex-direction: row;
