@@ -1,6 +1,8 @@
 # Portfolio
 
-> This is my portfolio where I will be uploading all my jobs.
+ This is my portfolio where I will be uploading all my jobs.
+ 
+ This web is compatible with desktop and mobile users.
 
 ## Built With
 

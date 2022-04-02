@@ -36,6 +36,13 @@ font-family: 'Roboto', sans-serif;
   padding-left: 120px;
   padding-top: 6px;
   color: white;
+  transition: all 500ms;
+}
+.nav_logo:hover {
+  color: #262626;
+  transform: rotate(360deg);
+
+
 }
 
 .nav_links_container {
@@ -205,8 +212,20 @@ font-family: 'Roboto', sans-serif;
   font-weight: bold;
   background-color: #f55800;
   border: none;
-  padding: 10px 15px;
+  padding: 10px;
   transition: all 400ms;
+}
+
+.works_card_hover_see div {
+  color: #fff;
+  font-weight: bold;
+  background-color: #f55800;
+  border: none;
+  padding: 10px;
+  transition: all 400ms;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .mps_text button:hover {
@@ -247,6 +266,36 @@ font-family: 'Roboto', sans-serif;
   height: 100%;
 }
 
+.sp_btn a {
+  color: #fff;
+}
+
+.works_card_hover_see div:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.icons_footer li a {
+  color: #505f79;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.works_card_hover_see div:hover a {
+  color: #f55800;
+}
+
+.works_card_hover_see {
+  display: none;
+  width: 100%;
+}
+
+.works_card:hover {
+  background: url("./img/bg/Card-Background.png") no-repeat center;
+  align-items: flex-end;
+}
+
 .mps_text1 {
   width: 85%;
   display: flex;
@@ -255,6 +304,14 @@ font-family: 'Roboto', sans-serif;
   color: #fff;
   font-weight: bold;
   transform: translateY(100px);
+}
+
+.works_card:hover .mps_text1 {
+  display: none;
+}
+
+.works_card:hover .works_card_hover_see {
+  display: block;
 }
 
 .mps_text1 h4 {
@@ -418,15 +475,6 @@ font-family: 'Roboto', sans-serif;
   gap: 1rem;
 }
 
-.form_list .form_first_name,
-.form_list .form_last_name {
-  width: 45%;
-}
-
-.form_list .form_first_name {
-  margin-right: 6%;
-}
-
 .form_input {
   border: none;
   border-bottom: 2px solid #d8d8d7;
@@ -445,9 +493,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .form_btn {
-  grid-row: 5;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 0;
 }
 
 .form_btn button:hover {
@@ -456,12 +502,8 @@ font-family: 'Roboto', sans-serif;
   color: #f55800;
 }
 
-.desktop {
-  display: block;
-}
-
-.mobile {
-  display: none;
+.line2 {
+  margin-bottom: 1rem;
 }
 
 .icons_footer {
@@ -469,10 +511,7 @@ font-family: 'Roboto', sans-serif;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  filter: invert(38%) sepia(17%) saturate(790%) hue-rotate(179deg)
-    brightness(89%) contrast(87%);
-  margin-bottom: 1rem;
+  gap: 2rem;
 }
 
 .last_line {
@@ -637,21 +676,13 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 10rem;
   }
 
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
-  }
-
   .form_full_name {
     grid-column: span 3;
     width: 100%;
   }
 
   .form_list {
-    justify-items: center;
+    justify-content: center;
   }
 
   .form_email {
@@ -667,27 +698,25 @@ font-family: 'Roboto', sans-serif;
     color: #3c3a39;
   }
 
-  .form_btn {
-    grid-column: span 4;
-    padding: 12px;
-  }
-
   .form_btn button {
     font-size: 17px;
     line-height: 24px;
     font-weight: 700;
-    padding: 12px;
   }
 
   footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
-
+  
   .icons_footer {
     margin-bottom: 0;
+    gap: 1rem;
+  }
+
+  .icons_footer li a {
+    font-size: 1rem;
   }
 
   .last_line {
