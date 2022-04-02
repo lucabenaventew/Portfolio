@@ -216,7 +216,7 @@ font-family: 'Roboto', sans-serif;
   transition: all 400ms;
 }
 
-.works_card_hover_see button {
+.works_card_hover_see div {
   color: #fff;
   font-weight: bold;
   background-color: #f55800;
@@ -224,6 +224,8 @@ font-family: 'Roboto', sans-serif;
   padding: 10px;
   transition: all 400ms;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .mps_text button:hover {
@@ -268,7 +270,7 @@ font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
-.works_card_hover_see button:hover {
+.works_card_hover_see div:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
@@ -280,7 +282,7 @@ font-family: 'Roboto', sans-serif;
   padding-bottom: 1rem;
 }
 
-.works_card_hover_see button:hover a {
+.works_card_hover_see div:hover a {
   color: #f55800;
 }
 
