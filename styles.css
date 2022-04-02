@@ -36,6 +36,13 @@ font-family: 'Roboto', sans-serif;
   padding-left: 120px;
   padding-top: 6px;
   color: white;
+  transition: all 500ms;
+}
+.nav_logo:hover {
+  color: #262626;
+  transform: rotate(360deg);
+
+
 }
 
 .nav_links_container {
