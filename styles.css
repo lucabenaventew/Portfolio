@@ -88,12 +88,6 @@ font-family: 'Roboto', sans-serif;
   align-items: center;
 }
 
-/* Scale text to not overloap with graphics */
-.mps_text p {
-  zoom: 150%;
-  transform: scale(1.5);
-}
-
 .intro_container .text1 {
   grid-column: 3;
   justify-content: center;
@@ -527,6 +521,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
+  /* Scale text to not overloap with graphics */
+  .mps_text p {
+    zoom: 150%;
+    transform: scale(1.5);
+  }
+  
   .intro_container {
     background-image: url("./img/bg/Illustration.png");
     background-position-x: right;
