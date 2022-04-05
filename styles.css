@@ -186,6 +186,8 @@ font-family: 'Roboto', sans-serif;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #091e42;
+  /* when zoom is normal */
+  zoom: normal;
 }
 
 .mps_text ul {
@@ -726,5 +728,10 @@ font-family: 'Roboto', sans-serif;
     width: 134px;
     border-radius: 1rem;
     margin: 1rem 0;
+  }
+  /* Scale text to not overloap with graphics */
+  .mps_text p {
+    zoom: 150%;
+    transform: scale(1.5);
   }
 }
