@@ -9,7 +9,6 @@
 - HTML
 - CSS
 
-
 ## Live Demo
 Visit this [GitHub pages link](https://lucabenaventew.github.io/Portfolio/) to see the live demo. 🟢🟢🟢
 
@@ -33,6 +32,7 @@ $ cd Portfolio
 ## 🤝 Collaborators
 
 - GitHub: [@chumaachike](https://github.com/chumaachike)
+- Francisco Borja
 
 ## Show your support
 
