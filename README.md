@@ -32,7 +32,7 @@ $ cd Portfolio
 ## 🤝 Collaborators
 
 - GitHub: [@chumaachike](https://github.com/chumaachike)
-- Francisco Borja
+- Francisco Borja [@Fclobo](https://github.com/)
 
 ## Show your support
 
